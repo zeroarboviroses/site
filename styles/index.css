@@ -18,6 +18,17 @@
   background-color: var(--hover-primary) !important;
 }
 
+#inicio {
+  background:
+    linear-gradient(35deg, rgba(0,0,0, 0.2), rgba(0,0,0,0.75)),
+    url("../images/inicio/fundo.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 35%;
+  height: calc(100vh - 72px);
+  color: #fff !important;
+}
+
 #projeto {
   background: var(--bg-primary);
   color: var(--white);
@@ -29,7 +40,7 @@
 
 .projeto__imgs {
   display: grid;
-  gap: 8px;
+  gap: 16px;
   grid-template-rows: repeat(2, 1fr);
   width: 100%;
 }
@@ -59,6 +70,10 @@
   width: 100% !important;
   height: 100% !important;
   object-fit: cover !important;
+}
+
+.cartaz__img {
+  object-fit: cover;
 }
 
 @media screen and (min-width: 468px) {
