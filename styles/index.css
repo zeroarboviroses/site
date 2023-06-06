@@ -1,0 +1,92 @@
+@import url("../lib/normalize/normalize.css");
+@import url("config.css");
+
+.navbar {
+  background-color: var(--primary) !important;
+}
+
+.navbar-brand,
+.nav-link {
+  color: var(--white) !important;
+}
+
+.btn-primary {
+  background-color: var(--primary);
+  border: var(--primary);
+}
+.btn-primary:is(:hover) {
+  background-color: var(--hover-primary) !important;
+}
+
+#projeto {
+  background: var(--bg-primary);
+  color: var(--white);
+}
+
+.projeto__text {
+  text-align: justify;
+}
+
+.projeto__imgs {
+  display: grid;
+  gap: 8px;
+  grid-template-rows: repeat(2, 1fr);
+  width: 100%;
+}
+
+.projeto__img {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+@media screen and (min-width: 468px) {
+  #projeto {
+    align-items: center;
+  }
+  .projeto__text {
+    max-width: 900px;
+  }
+  .projeto__imgs {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    max-width: 900px;
+  }
+}
+
+.carousel__img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+}
+
+@media screen and (min-width: 468px) {
+  .carousel__img {
+    width: 700px !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    margin: 0 auto;
+  }
+}
+
+#criadores {
+  background: var(--bg-primary);
+  color: var(--white);
+  align-items: center;
+}
+
+
+@media screen and (min-width: 468px) {
+  .carousel__img {
+    width: 700px !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    margin: 0 auto;
+  }
+}
+
+footer {
+  background: var(--secondary);
+  color: var(--white);
+}

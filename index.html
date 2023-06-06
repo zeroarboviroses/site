@@ -6,17 +6,18 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!--Bootstrap ver 5.3 //-->
-  <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.min.css">
   <script src="./lib/bootstrap/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./styles/index.css">
   <!--//-->
-  <title>Zero Arboviroses</title>
+  <title>Zero arboviroses!</title>
 </head>
 
 <body>
   <!--// Barra de navegacao-->
-  <nav style="min-height: 72px;" class="px-3 navbar sticky-top navbar-expand-lg bg-body-tertiary">
+  <nav style="min-height: 72px;" class="navbar-dark px-3 navbar sticky-top navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
-      <a class="navbar-brand" href="./index.html">Zero Arboviroses</a>
+      <a class="navbar-brand" href="./index.html">Zero Arboviroses!</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -24,19 +25,19 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="./index.html">Início</a>
+            <a class="nav-link" aria-current="page" href="./index.html">Início</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./pages/projeto.html">Projeto</a>
+            <a class="nav-link" href="#projeto">Projeto</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./pages/ciclos.html">Ciclos</a>
+            <a class="nav-link" href="#ciclos">Ciclos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./pages/criadores.html">Criadores</a>
+            <a class="nav-link" href="#criadores">Criadores</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./pages/contato.html">Contato</a>
+            <a class="nav-link" href="#contato">Contato</a>
           </li>
         </ul>
       </div>
@@ -45,11 +46,125 @@
   <!--//-->
   <!-- Conteudo principal -->
   <main>
-    <section style="height: calc(100vh - 72px);" class="p-3 d-flex flex-column justify-content-center align-items-center" id="inicio">
-      <p class="mb-2 text-center fs-4">Bem vindo ao site oficial do</p>
-      <h1 style="font-weight: 600;" class="mb-3 display-2 text-center">Zero Arboviroses!</h1>
-      <p class="text-center fs-6">Um projeto ambiental desenvolvido por estudantes da EEEP Valter Nunes de Alencar</p>
+    <section style="height: calc(100vh - 72px);"
+      class="p-3 d-flex flex-column justify-content-center align-items-center" id="inicio">
+      <h2 class="m-0 display-5">Ambiente saudável</h2>
+      <h1 style="font-weight: 600;" class="m-0 mb-3 display-2 text-center">zero arboviroses!</h1>
+      <p style="max-width: 600px; font-weight: 400;" class="mb-4 text-center">Bem vindo ao site oficial do projeto
+        Ambiente saudável, zero arboviroses! Um projeto desenvolvido por estudantes da EEEP Valter Nunes de Alencar.</p>
+      <a class="btn btn-primary px-5 py-2" href="#projeto">Saiba mais</a>
     </section>
+    <section class="p-4 py-2 pb-5 d-flex flex-column" id="projeto">
+      <h1 class="text-center">Sobre o projeto</h1>
+      <p class="projeto__text mb-4">As arboviroses atingem milhares de pessoas, sendo grave o problema de
+        saúde pública. Dengue é um arbovirose presente em várias regiões do
+        mundo. A temperatura média e a umidade relativa do ar apresentam
+        relação positiva com o aumento de focos <b>AEDES AEGYPTI</b>. Atualmente as
+        três arboviroses de maior importância para a saúde são <b>DENGUE, ZIKA
+          VIRUS, CHIKUNGUNYA</b>. A dengue é uma doença infecciosa febril aguda que
+        pode se apresentar de duas formas; Benigna ou grave. O Zika vírus é
+        considerada arbovirose emergente transmitida por mosquitos do gênero
+        Aedes. O vírus Chikungunya é transmitido por picada de insetos do gênero
+        Aedes. A cada dia que passa a questão ambiental tem sido considerada
+        como um fato que precisa ser trabalhado com toda a sociedade e
+        principalmente nas escolas. É aqui que entra o projeto <b>Ambiente saudável, zero arboviroses!</b> que busca
+        reverter esse quadro tão emergente.</p>
+      <span class="projeto__imgs w-100">
+        <img class="projeto__img" src="./images/projeto/aedes.jpg" alt="Imagem do mosquito">
+        <img class="projeto__img" src="./images/projeto/aedes-2.jpg" alt="Imagem do mosquito">
+      </span>
+    </section>
+    <section class="p-4 py-2 pb-5 d-flex flex-column" id="ciclos">
+      <h1 class="text-center">Ciclos</h1>
+      <div id="carouselExampleIndicators" class="carousel carousel-dark slide" data-bs-ride="true">
+        <div class="carousel-indicators m-0">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+            aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+            aria-label="Slide 5"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
+            aria-label="Slide 6"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6"
+            aria-label="Slide 7"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7"
+            aria-label="Slide 8"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="8"
+            aria-label="Slide 9"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/ciclos/mapa-1.jpeg" class="carousel__img d-block w-100" alt="Imagem do mapa">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/ciclos/mapa-2.jpeg" class="carousel__img d-block w-100" alt="Imagem do mapa">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/ciclos/mapa-3.jpeg" class="carousel__img d-block w-100" alt="Imagem do mapa">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/ciclos/mapa-4.jpeg" class="carousel__img d-block w-100" alt="Imagem do mapa">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/ciclos/mapa-5.jpeg" class="carousel__img d-block w-100" alt="Imagem do mapa">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/ciclos/mapa-6.jpeg" class="carousel__img d-block w-100" alt="Imagem do mapa">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/ciclos/mapa-7.jpeg" class="carousel__img d-block w-100" alt="Imagem do mapa">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/ciclos/mapa-8.jpeg" class="carousel__img d-block w-100" alt="Imagem do mapa">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/ciclos/mapa-local.jpeg" class="carousel__img d-block w-100" alt="Imagem do mapa">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <section class="p-4 py-2 pb-5 d-flex flex-column" id="criadores">
+      <h1 class="text-center">Criadores</h1>
+      <span class="d-flex flex-wrap">
+        <ul class="criadores__list m-0">
+          <li>Adailson Cavalcante da Silva</li>
+          <li>Ana Beatriz de Almeida</li>
+          <li>Francisca Marlene Cirilo de Oliveira</li>
+          <li>Iasmim Gomes de Brito</li>
+          <li>Izaias Barbosa da Silva</li>
+        </ul>
+        <ul class="criadores__list m-0">
+          <li>Kiuane da Silva Lopes</li>
+          <li>Maria Ticiane Roseno Soares</li>
+          <li>Ruan Henrique Ferreira Veloso</li>
+          <li>Tamires da Silva Rodrigues</li>
+          <li>Thaila Geraldo da Silva</li>
+        </ul>
+      </span>
+    </section>
+    <section class="pb-3 text-center" id="contato">
+      <h1 class="mb-2">Contato</h1>
+      <h5>Email: zeroarboviroses@gmail.com</h5>
+    </section>
+    <footer class="text-center p-3">
+      <p><b>E.E.E.P. Valter Nunes de Alencar</b></p>
+      <p class="mb-0">&copy;2023 - Ambiente saudável, zero arboviroses! Todos os direitos reservados.</p>
+    </footer>
   </main>
   <!--//-->
 </body>
