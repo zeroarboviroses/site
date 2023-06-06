@@ -83,6 +83,10 @@
     object-fit: cover !important;
     margin: 0 auto;
   }
+  .cartaz__img {
+    width: 650px !important;
+    margin: 0 auto !important;
+  }
 }
 
 #criadores {
